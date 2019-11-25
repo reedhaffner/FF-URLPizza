@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "URLPizza",
+    "version": "1.0.0",
+    "description": "1 Click Link Shortener!",
+    "icons": {
+        "96": "icons/icon-96.png"
+    },
+    "permissions": [
+        "menus",
+        "notifications",
+        "activeTab",
+        "storage",
+        "clipboardWrite"
+    ],
+    "background": {
+        "scripts": [
+            "urlpizza.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "applications": {
+        "gecko": {
+            "id": "urlpizza@hfnr.cc"
+        }
+    }
+}
